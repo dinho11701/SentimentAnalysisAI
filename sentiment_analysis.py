@@ -1,6 +1,5 @@
 import requests
 
-
 def sentiment_analyzer(text_to_analyse):
     """
     Analyse le sentiment d'une chaîne de caractères en utilisant un service d'API externe.

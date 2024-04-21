@@ -1,0 +1,11 @@
+# Installer le paquet virtualenv si ce n'est pas déjà fait
+pip install virtualenv
+
+# Créer un nouvel environnement virtuel dans le dossier de votre projet
+virtualenv myenv
+
+# Activer l'environnement virtuel
+# Sur Windows
+myenv\Scripts\activate
+# Sur MacOS/Linux
+source myenv/bin/activate
